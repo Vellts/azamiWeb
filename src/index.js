@@ -25,7 +25,6 @@ function App({ hideLoader }) {
 }
 
 render((
-<App hideLoader={hideLoader} showLoader={showLoader} />,
   <Router>
       <Switch>
         <Route exact path="/" component={home}/>
