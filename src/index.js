@@ -24,6 +24,8 @@ render((
 ), document.getElementById("root")) 
 
 /*render((
+=======
+>>>>>>> 0940cda835511c395ea55597b2dc655c9b4b29d4
   <Router>
       <Switch>
         <Route exact path="/" component={home}/>
