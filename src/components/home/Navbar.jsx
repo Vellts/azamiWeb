@@ -24,8 +24,8 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-1">
               <a href="/" className="py-4 px-2 text-white border-b-4 border-bookmark-red font-semibold ">Inicio</a>
               <a href="https://discord.gg/qwATJpNhqG" className="py-4 px-2 text-white font-semibold hover:text-bookmark-red transition duration-300">Soporte</a>
-              <a href="/commands" className="py-4 px-2 text-white font-semibold hover:text-bookmark-red transition duration-300">Comandos</a>
-              <a href="/premium" className="py-4 px-2 text-white font-semibold hover:text-bookmark-red transition duration-300">Premium</a>
+              <a href="/commands/" className="py-4 px-2 text-white font-semibold hover:text-bookmark-red transition duration-300">Comandos</a>
+              <a href="/premium/" className="py-4 px-2 text-white font-semibold hover:text-bookmark-red transition duration-300">Premium</a>
             </div>
           </div>
         
@@ -46,12 +46,12 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={`${menuActive ? "hidden" : ""} mobile-menu`}>
+      <div className={`${menuActive ? "hidden" : ""} mobile-menu transition ease-in-out duration-500`}>
         <ul className="">
           <li className="active"><a href="/" className="block text-sm text-white px-2 py-4 text-white bg-bookmark-red font-semibold">Inicio</a></li>
           <li><a href="https://discord.gg/qwATJpNhqG" className="block text-sm px-2 text-white py-4 hover:bg-bookmark-red transition duration-300">Soporte</a></li>
-          <li><a href="/commands" className="block text-sm px-2 text-white py-4 hover:bg-bookmark-red transition duration-300">Comandos</a></li>
-          <li><a href="/premium" className="block text-sm px-2 text-white py-4 hover:bg-bookmark-red transition duration-300">Premium</a></li>
+          <li><a href="/commands/" className="block text-sm px-2 text-white py-4 hover:bg-bookmark-red transition duration-300">Comandos</a></li>
+          <li><a href="/premium/" className="block text-sm px-2 text-white py-4 hover:bg-bookmark-red transition duration-300">Premium</a></li>
         </ul>
       </div>
       

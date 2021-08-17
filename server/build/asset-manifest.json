@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c0a5def.chunk.css",
+    "main.js": "/static/js/main.da68def8.chunk.js",
+    "main.js.map": "/static/js/main.da68def8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a3d2147.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a3d2147.js.map",
+    "static/js/2.0a9d1a44.chunk.js": "/static/js/2.0a9d1a44.chunk.js",
+    "static/js/2.0a9d1a44.chunk.js.map": "/static/js/2.0a9d1a44.chunk.js.map",
+    "static/js/3.245c2c88.chunk.js": "/static/js/3.245c2c88.chunk.js",
+    "static/js/3.245c2c88.chunk.js.map": "/static/js/3.245c2c88.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4c0a5def.chunk.css.map": "/static/css/main.4c0a5def.chunk.css.map",
+    "static/js/2.0a9d1a44.chunk.js.LICENSE.txt": "/static/js/2.0a9d1a44.chunk.js.LICENSE.txt",
+    "static/media/azamiBanner.31318002.png": "/static/media/azamiBanner.31318002.png",
+    "static/media/commands.5d89951f.svg": "/static/media/commands.5d89951f.svg",
+    "static/media/dragon.2fb238d4.svg": "/static/media/dragon.2fb238d4.svg",
+    "static/media/iconAzami.9bb96df0.png": "/static/media/iconAzami.9bb96df0.png",
+    "static/media/niveles.41c109de.svg": "/static/media/niveles.41c109de.svg",
+    "static/media/unicorn.0487e322.svg": "/static/media/unicorn.0487e322.svg",
+    "static/media/unicorn2.c6c4d36c.svg": "/static/media/unicorn2.c6c4d36c.svg",
+    "static/media/welcome.a0fc8268.svg": "/static/media/welcome.a0fc8268.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a3d2147.js",
+    "static/js/2.0a9d1a44.chunk.js",
+    "static/css/main.4c0a5def.chunk.css",
+    "static/js/main.da68def8.chunk.js"
+  ]
+}
