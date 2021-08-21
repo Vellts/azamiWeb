@@ -22,6 +22,8 @@ const Footer = () => {
         <a href="/commands/" className="text-footer-c hover:text-bookmark-red transition duration-300">Comandos</a>
         <a href="https://discord.gg/qwATJpNhqG" className="text-footer-c hover:text-bookmark-red transition duration-300">Soporte</a>
         <a href="/api/v1/" className="text-footer-c hover:text-bookmark-red transition duration-300">Api</a>
+        <a href="https://status.azamibot.xyz" className="text-footer-c hover:text-bookmark-red transition duration-300">Status</a>
+        <a href="/bugreport/" className="text-footer-c hover:text-bookmark-red transition duration-300">Reporte de Bugs</a>
       </div>
       <div className="w-full sm:w-1/5 flex flex-col space-y-4">
         <p className="opacity-90">Sobre Nosotros</p>

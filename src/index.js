@@ -8,6 +8,8 @@ import premium from './components/renders/premium.jsx'
 import commands from './components/renders/commands.jsx'
 import NotFound from './components/renders/NotFound.jsx'
 import Endpoint from './components/renders/endpoints.jsx'
+import BugReport from './components/renders/BugReport.jsx'
+import InviteRender from './components/renders/inviteRender.jsx'
 
 render((
   <Router>
@@ -18,11 +20,15 @@ render((
         <Route path="/commands/" component={commands}/>
         <Route path="/premium/" component={premium}/>
         <Route path="/api/v1/" component={Endpoint} />
+        <Route path="/invite/" component={InviteRender} />
+        <Route path="/bugreport/" component={BugReport} />
+
         <Route path="*" component={NotFound} />
-      </Switch>
+      </Switch> 
   </Router>
 ), document.getElementById("root")) 
-
+//<Route path="/invite/"><Redirect to="https://discord.gg/H5wKDHT4"/></Route>
+//<Link to={{ pathname: "https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies" }} target="_blank" />
 /*render((
 =======
 >>>>>>> 0940cda835511c395ea55597b2dc655c9b4b29d4

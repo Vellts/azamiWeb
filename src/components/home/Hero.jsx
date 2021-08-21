@@ -14,12 +14,12 @@ const Hero = () => {
             ¡Conquista las mazmorras, crea tu gremio, establece amistades y disfruta!
           </p>
           <div className="flex justify-center flex-wrap gap-6">
-            <a href="https://discord.gg/qwATJpNhqG">
+            <a href="/invite/">
             <button type="button" className="btn btn-purple hover:bg-bookmark-white hover:text-black">
               Invitame
             </button>
             </a>
-            <a href="/premium">
+            <a href="/premium/">
             <button type="button" className="btn btn-white hover:bg-bookmark-red hover:text-white">
               Premium
             </button>
